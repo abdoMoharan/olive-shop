@@ -1,0 +1,539 @@
+:root{
+    --black:#041b2d;
+    --orange:#f08068;
+}
+/* start About Style */
+
+/* Start Showcass Section */
+.showcass{
+    padding-top: 2rem;
+    width: 100%;
+    margin-top: 7.1rem;
+    background: url('../image/heidding.jpg') no-repeat center center/cover;
+    height: 400px;
+    margin-bottom: 3rem;
+}
+.showcass .containt{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 10%;
+}
+.showcass .containt h1{
+    font-size: 3rem;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.showcass nav .breadcrumb{
+  width: fit-content;
+  background:none;
+  font-size: 1.5rem;
+ 
+}
+.showcass nav .breadcrumb li,
+.showcass nav .breadcrumb li a{
+    color: #fff;
+    font-size: 2rem;
+}
+.showcass nav .breadcrumb li a:hover{
+    color: var(--orange);
+}
+
+/* End Showcass Section */
+/* Start Our Company */
+.our-company{
+    padding: 2rem 1.5rem; 
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.our-company .img-comp{
+    width: 100%;
+    padding-bottom: 2rem;
+}
+.our-company .img-comp img{
+  max-width: 100%;
+  width: 100%;
+}
+.our-company .content {
+width: 100%;
+margin-top: 2rem;
+}
+.our-company .content h3{
+    margin-bottom: 2.5rem;
+    font-size:3rem;
+    font-weight: 700;
+}
+.our-company .content p{
+    line-height: 35px;
+    font-size: 1.5rem;
+    color: rgb(163, 162, 162);
+    font-weight: 600;
+}
+.our-company .icon-prgh{
+    margin-top: 3rem;
+    background-color:#b9b3b3;
+    width: 100%;
+    padding: 3rem 1.5rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+.our-company .icon-prgh p{
+    line-height: 35px;
+    font-size: 1.5rem;
+    color:  var(--black);
+    font-weight: 400;
+    margin: 0 2rem;
+}
+.our-company .icon-prgh i{
+    font-size: 3rem;
+    color: #ccc;
+}
+/* End Our Company */
+/* Start Our Team */
+.our-team{
+    padding: 2rem 1.5rem; 
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+ 
+.our-team .content {
+    width: 100%;
+    margin-top: 2rem;
+}
+.our-team .content h3{
+    margin-bottom: 2.5rem;
+    font-size:3rem;
+    font-weight: 700;
+}
+.our-team .content p{
+    line-height: 35px;
+    font-size: 1.5rem;
+    color: rgb(163, 162, 162);
+    font-weight: 600;
+}
+.card-team{
+    padding: 2rem 3rem;
+    width: 100%;
+}
+.card-team .box{
+    width: 80%;
+    margin: 2rem auto;
+    
+}
+.card-team .box img{
+    width: 100%;
+    max-width: 100%;
+}
+.card-team .box .caption{
+    width: 100%;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #ccc !important;
+}
+.card-team .box .caption h3{
+font-size: 2rem;
+color: var(--black);
+font-weight: 600;
+}
+.card-team .box .caption span{
+    display: inline-block;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    color: #666;
+    font-size: 1.8rem;
+}
+.card-team .box .caption p{
+    font-size: 1.2rem;
+    color: rgb(139, 138, 138);
+    font-weight:600 ;
+    line-height: 25px;
+}
+.card-team .box .box-number{
+    padding-top: 2rem;
+    border-bottom: 1px solid #ccc !important;
+}
+.card-team .box .box-number p{
+ font-size: 1.5rem;
+}
+.card-team .socheail-box{
+    padding: 1.5rem 2rem;
+}
+.card-team .socheail-box i{
+    margin: 0 1rem;
+    width: 40px;
+    height: 40px;
+    background-color: #f08068;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.card-team .socheail-box i:hover{
+    opacity: 0.8;
+}
+.card-team .socheail-box i:first-child{
+    background-color: #3b5998;
+
+}
+.card-team .socheail-box i:nth-child(2){
+    background-color: #55acee;
+}
+.card-team .socheail-box i:nth-child(3){
+    background-color: #bd081c;
+
+}
+.card-team .socheail-box i:last-child{
+    background-color: #262626;
+
+}
+/* End Our Team */
+/* End About Style */
+
+/* Start Adderss And Email  */
+.adderss{
+    width: 100%;
+    padding: 2rem;
+ 
+}
+.adderss .boxing{
+    width: 90%;
+    text-align: center;
+    padding: 2rem;
+}
+.adderss .boxing h3{
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.adderss .boxing p{
+    font-size: 1.8rem;
+    padding-bottom: .6rem;
+}
+.adderss .boxing span{
+    display: inline-block;
+    font-size: 1.5rem;
+    color: var(--black);
+    font-weight: 500;
+}
+.adderss .boxing i{
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.adderss .boxing i:hover{
+    transform: scale(1.2);
+}
+/* End Adderss And Email  */
+/* Start A Map */
+.maaps{
+    width: 100%;
+    padding-bottom: 3rem;
+}
+.map-container{
+    overflow:hidden;
+    position:relative;
+    height:0;
+    width: 100%;
+    padding-bottom: 2rem;
+    }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:500px;
+    width:100%;
+    position:absolute;
+     
+    }
+/* End A Mab */
+/* Start Form Contact  */
+.form-contact{
+    width: 100%;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+.form-contact .container-boxing{
+    width: 100%;
+}
+.form-contact .container-boxing h3{
+margin-bottom: 2rem;
+padding: 2rem;
+font-size: 4rem;
+font-weight: 600;
+}
+.form-contact .container-boxing form{
+width: 100%;
+padding: 2rem 3rem;
+}
+ .form-contact .container-boxing form input,
+ .form-contact .container-boxing form textarea{
+     display: block;
+     width: 100%;
+     border-bottom: 1px solid #7777 !important;
+ }
+ .form-contact .container-boxing form input{
+     padding: 7px 20px;
+     font-size: 2rem;
+     margin-bottom: 2rem;
+ }
+ .form-contact .container-boxing form textarea{
+     height: 250px;
+     padding: 7px 20px;
+     font-size: 2rem;
+     margin-bottom: 2rem;
+ }
+ .form-contact .container-boxing form .btn4{
+     display: block;
+     width: 200px;
+     background-color: var(--black);
+     padding: 6px 20px;
+     color: #fff;
+     margin-left:20%;
+     font-size: 2rem;
+     border-radius: 10px;
+     cursor: pointer;
+     transition: 0.3s;
+ }
+ .form-contact .container-boxing form .btn4:hover{
+     color: var(--orange);
+ }
+ .form-contact .container-boxing .img-cont{
+    width: 100%;
+    padding-top: 2rem;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .form-contact .container-boxing .img-cont img{
+     max-width: 100%;
+     margin-top: 4rem;
+     padding-top: 4rem;
+     border-radius: 12px;
+     opacity: 0.8;
+     cursor: pointer;
+     transition: 0.3s;
+     margin: auto;
+ }
+ .form-contact .container-boxing .img-cont img:hover{
+     opacity: 1;
+     transform: scale(1.1);
+ }
+
+ /* Start PAGE FAQS  */
+
+ .faq{
+    padding: 2rem 2rem;
+    width: 100%;
+ }
+ 
+.faq .box h1 {
+   font-size: 3rem;
+   padding: 1.5rem;
+   font-weight: 600;
+}
+.faq .card{
+    width: 100%;
+     margin-bottom: 2rem;
+}
+.faq .card-header {
+    padding: 1.75rem 1.25rem;
+    margin-bottom: 1.5rem;
+}
+.faq .btn-link {
+    font-weight: 400;
+    color:var(--black) ;
+    text-decoration: none;
+    font-size: 2rem;
+}
+.faq .btn-link:hover{
+color: var(--orange);
+}
+.faq .card-body{
+    padding: 2rem;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color:  var(--black);
+}
+
+/* Start Showcass Section */
+.showcass-service{
+    padding-top: 2rem;
+    width: 100%;
+    margin-top: -1rem;
+    background: url('../image/heidding.jpg') no-repeat center center/cover;
+    height: 400px;
+    margin-bottom: 3rem;
+}
+.showcass-service .containt{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 10%;
+}
+.showcass-service .containt h1{
+    font-size: 3rem;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.showcass-service nav .breadcrumb{
+  width: fit-content;
+  background:none;
+  font-size: 1.5rem;
+ 
+}
+.showcass-service nav .breadcrumb li,
+.showcass-service nav .breadcrumb li a{
+    color: #fff;
+    font-size: 2rem;
+}
+.showcass-service nav .breadcrumb li a:hover{
+    color: var(--orange);
+}
+
+/* End Showcass Section */
+
+/* Start Showcass Section fq */
+.showcass-fq{
+    padding-top: 2rem;
+    width: 100%;
+    margin-top: -1rem;
+    background: url('../image/heidding.jpg') no-repeat center center/cover;
+    height: 400px;
+    margin-bottom: 3rem;
+}
+.showcass-fq .containt{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 10%;
+}
+.showcass-fq .containt h1{
+    font-size: 3rem;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.showcass-fq nav .breadcrumb{
+  width: fit-content;
+  background:none;
+  font-size: 1.5rem;
+ 
+}
+.showcass-fq nav .breadcrumb li,
+.showcass-fq nav .breadcrumb li a{
+    color: #fff;
+    font-size: 2rem;
+}
+.showcass-fq nav .breadcrumb li a:hover{
+    color: var(--orange);
+}
+
+/* End Showcass Section fq */
+/* Start  Term And Services */
+.service{
+    width: 100%;
+    padding: 2rem 2.5rem;
+}
+.service .box-content{
+    width: 100%;
+    margin-left: 2rem;
+     
+}
+.service .box-content .box{
+    width: 95%;
+    padding: 2rem 1.5rem;
+  margin-left: 3rem;
+}
+.service .box-content .box h3{
+    padding: 1.5rem 0;
+    font-size: 2.5rem;
+    font-weight:600;
+    color: #666;
+    border-bottom: 1px solid rgb(189, 184, 184) !important;
+}
+.service .box-content .box P{
+    font-size: 2rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    color: rgb(141, 137, 137);
+}
+/* End  Term And Services */
+/* Start  Term And PRIVACY POLICY */
+.prtvacy{
+    padding: 3rem 2.5rem;
+    width: 100%;
+}
+.prtvacy .boxing-prtvacy{
+    width: 90%;
+    margin-left: 4rem;
+    padding-top: 2rem;
+}
+.prtvacy .boxing-prtvacy h3{
+    font-size: 2.5rem;
+    font-weight: 800;
+    padding-bottom: 2rem;
+}
+.prtvacy .boxing-prtvacy p{
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: #666;
+}
+/* End  Term And PRIVACY POLICY */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* End PAGE FAQS  */
+/*End Form Contact   */
+/* madia */
+@media (max-width:768px){
+    .form-contact .container-boxing form .btn4{
+        margin: auto;
+    }
+}
